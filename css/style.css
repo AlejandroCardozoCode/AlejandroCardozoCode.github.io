@@ -33,8 +33,7 @@ body {
 }
 
 .me-image {
-    height: 300px;
-    width: 300px;
+    max-width: 70%;
     margin: 30px auto;
 }
 
