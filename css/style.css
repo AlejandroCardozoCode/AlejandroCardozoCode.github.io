@@ -37,7 +37,7 @@ body {
     margin: 30px auto;
 }
 
-.banner .row {
+.banner {
     display: flex;
     min-height: 100vh;
     align-items: center;
