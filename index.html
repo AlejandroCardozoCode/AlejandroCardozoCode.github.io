@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Alejandro Cardozo</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <!-- Bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
     <!--Awesome Fonts-->
     <script src="https://kit.fontawesome.com/aefd86c24a.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <!-- Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <!--Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,7 +29,7 @@
         <div class="row">
             <div class="col-lg-6 text-center align-self-center">
                 <div class="container">
-                    <img src="assets/me.jpg" alt="profile-img" class="rounded-circle me-image shadow-lg">
+                    <img src="assets/me.png" alt="profile-img" class="me-image">
                 </div>
                 <h2>Software Engineer</h2>
                 <p class="fst-italic">and a bit of UI/UX Designer... 😆</p>
@@ -60,151 +60,119 @@
     </div>
 
     <section class="mobile">
-        <div id="carouselExampleInterval" class="carousel" data-bs-ride="carousel">
+
+        <div id="carouselApp" class="carousel slide ">
             <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="2000">
-                    <div class="row">
+                <div class="carousel-item active">
+                    <!--Electrocardio-->
+                    <div class="row px-0">
                         <div class="col-lg-6 align-self-center">
                             <h4>&lt /Electrocardio telegraph &gt</h4>
-                            <p>It is a mobile application developed in <span class="high">Flutter</span>, it uses the
-                                HL7 standard to be able to
-                                send
-                                images between cardiologists and oncologists for a detailed analysis of
-                                electrocardiograms, it
-                                uses a <span class="high">Firebase</span> database as well as other Rest services for
-                                data management and
-                                encryption.</p>
+                            <p>This mobile application is developed using Flutter and utilizes the HL7 standard to
+                                enable cardiologists and oncologists to send EKG images for detailed analysis. It uses a
+                                Firebase database and other Rest services for data management and encryption.</p>
+                            <span class="badge bg-dark">Flutter</span>
+                            <span class="badge bg-dark">Firebase</span>
+                            <span class="badge bg-dark">HL7</span>
+                            <span class="badge bg-dark">Encryption</span>
                         </div>
-                        <img src="assets/apps/electrocardio/1.png" alt="app-image" class="app-image col-lg-6">
+                        <video src="assets/apps/electrocardio/Electrocardio.mp4" autoplay muted loop
+                            class="app-image col-lg-6 py-5"></video>
                     </div>
+
                 </div>
-                <div class="carousel-item" data-bs-interval="2000">
+                <div class="carousel-item">
+                    <!--movies-->
                     <div class="row">
                         <div class="col-lg-6 align-self-center">
-                            <h4>&lt /Electrocardio telegraph &gt</h4>
-                            <p>It is a mobile application developed in <span class="high">Flutter</span>, it uses the
-                                HL7 standard to be able to
-                                send
-                                images between cardiologists and oncologists for a detailed analysis of
-                                electrocardiograms, it
-                                uses a <span class="high">Firebase</span> database as well as other Rest services for
-                                data management and
-                                encryption.</p>
+                            <h4>&lt /CineScope &gt</h4>
+                            <p>Utilizing Rest services, this application fetches detailed movie information and
+                                displays it in a user-friendly interface for a seamless and enriched user
+                                experience.</p>
+                            <span class="badge bg-dark">Flutter</span>
+                            <span class="badge bg-dark">Rest API</span>
+                            <span class="badge bg-dark">Bloc</span>
+                            <span class="badge bg-success"><a class="link-underline-opacity-0 link-light"
+                                    target="_blank"
+                                    href="https://play.google.com/store/apps/details?id=com.cinescopeaplicacion">👉Download</a></span>
 
                         </div>
-                        <img src="assets/apps/electrocardio/2.png" alt="app-image" class="app-image col-lg-6">
+                        <video src="assets/apps/movies/peliculas.mp4" autoplay muted loop
+                            class="app-image col-lg-6 py-5"></video>
                     </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                    <div class="row">
-                        <div class="col-lg-6 align-self-center">
-                            <h4>&lt /Electrocardio telegraph &gt</h4>
-                            <p>It is a mobile application developed in <span class="high">Flutter</span>, it uses the
-                                HL7 standard to be able to
-                                send
-                                images between cardiologists and oncologists for a detailed analysis of
-                                electrocardiograms, it
-                                uses a <span class="high">Firebase</span> database as well as other Rest services for
-                                data management and
-                                encryption.</p>
 
-                        </div>
-                        <img src="assets/apps/electrocardio/3.png" alt="app-image" class="app-image col-lg-6">
-                    </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                    <div class="row">
-                        <div class="col-lg-6 align-self-center">
-                            <h4>&lt /Electrocardio telegraph &gt</h4>
-                            <p>It is a mobile application developed in <span class="high">Flutter</span>, it uses the
-                                HL7 standard to be able to
-                                send
-                                images between cardiologists and oncologists for a detailed analysis of
-                                electrocardiograms, it
-                                uses a <span class="high">Firebase</span> database as well as other Rest services for
-                                data management and
-                                encryption.</p>
-
-                        </div>
-                        <img src="assets/apps/electrocardio/5.png" alt="app-image" class="app-image col-lg-6">
-                    </div>
-                </div>
-                <!--movies-->
-                <div class="carousel-item" data-bs-interval="2000">
-                    <div class="row">
-                        <div class="col-lg-6 align-self-center">
-                            <h4>&lt /Movies app &gt</h4>
-                            <p>An application that uses <span class="high">Rest services</span> to get movie information
-                                and display it in a
-                                user-friendly interface.</p>
-                        </div>
-                        <img src="assets/apps/movies/6.png" alt="app-image" class="app-image col-lg-6">
-                    </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                    <div class="row">
-                        <div class="col-lg-6 align-self-center">
-                            <h4>&lt /Movies app &gt</h4>
-                            <p>An application that uses <span class="high">Rest services</span> to get movie information
-                                and display it in a
-                                user-friendly interface.</p>
-                        </div>
-                        <img src="assets/apps/movies/7.png" alt="app-image" class="app-image col-lg-6">
-                    </div>
-                </div>
-                <!--pk2-->
-                <div class="carousel-item" data-bs-interval="2000">
-                    <div class="row">
-                        <div class="col-lg-6 align-self-center">
-                            <h4>&lt /PK2 &gt</h4>
-                            <p>This is an application that uses geolocation and <span class="high">maps</span> to paint
-                                routes between the
-                                user and a nearby motel, room information and prices are displayed, programmed in
-                                <span class="high">Java and Android Studio.</span>
-                            </p>
-                        </div>
-                        <img src="assets/apps/pk2/8.png" alt="app-image" class="app-image col-lg-6">
-                    </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                    <div class="row">
-                        <div class="col-lg-6 align-self-center">
-                            <h4>&lt /PK2 &gt</h4>
-                            <p>This is an application that uses geolocation and <span class="high">maps</span> to paint
-                                routes between the
-                                user and a nearby motel, room information and prices are displayed, programmed in
-                                <span class="high">Java and Android Studio.</span>
-                            </p>
-                        </div>
-                        <img src="assets/apps/pk2/9.png" alt="app-image" class="app-image col-lg-6">
-                    </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                    <div class="row">
-                        <div class="col-lg-6 align-self-center">
-                            <h4>&lt /PK2 &gt</h4>
-                            <p>This is an application that uses geolocation and <span class="high">maps</span> to paint
-                                routes between the
-                                user and a nearby motel, room information and prices are displayed, programmed in
-                                <span class="high">Java and Android Studio.</span>
-                            </p>
-                        </div>
-                        <img src="assets/apps/pk2/10.png" alt="app-image" class="app-image col-lg-6">
-                    </div>
                 </div>
             </div>
         </div>
+
+        <div class="d-flex justify-content-between my-5">
+            <button class="btn" type="button" data-bs-target="#carouselApp" data-bs-slide="prev"><i
+                    class="fa-solid fa-arrow-left"></i> Previous</button>
+            <button class="btn" type="button" data-bs-target="#carouselApp" data-bs-slide="next">Next<i
+                    class="fa-solid fa-arrow-right"></i></button>
+        </div>
+
     </section>
     <div>
         <p>Web</p>
         <hr>
     </div>
     <section class="web text-center">
-        <h4>&lt /Discoteca Analógica &gt</h4>
-        <p>Landing page for a fictional company that sells vinyl records and offers subscriptions.</p>
-        <video src="assets/web/vinyl/desktop.mp4" autoplay muted loop
-            class="video-desktop d-none d-lg-inline shadow"></video>
-        <video src="assets/web/vinyl/mobile.mp4" autoplay muted loop class="video-desktop d-lg-none shadow"></video>
+        <div id="carouselWeb" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h4>&lt /Simon Game &gt</h4>
+                    <p>The Simon Game in a web page.</p>
+                    <video src="assets/web/simon/desktop.mp4" autoplay muted loop
+                        class="video-desktop d-none d-lg-inline shadow-lg rounded-4 mb-5"></video>
+                    <video src="assets/web/simon/mobile.mp4" autoplay muted loop
+                        class="video-desktop d-lg-none shadow-lg rounded-4 mb-5"></video>
+                    <br>
+
+                    <span class="badge bg-dark">JQuery</span>
+                    <span class="badge bg-dark">JS</span>
+                    <span class="badge bg-dark">Bootstrap</span>
+                    <span class="badge bg-success"><a class="link-underline-opacity-0 link-light" target="_blank"
+                            href="https://alejandrocardozocode.github.io/simon-game/">Try it
+                            here</a></span>
+                </div>
+                <div class="carousel-item">
+                    <h4>&lt /Drums &gt</h4>
+                    <p>Wanna play the drums?.</p>
+                    <video src="assets/web/drums/desktop.mp4" autoplay muted loop
+                        class="video-desktop d-none d-lg-inline shadow-lg rounded-4 mb-5"></video>
+                    <video src="assets/web/drums/mobile.mp4" autoplay muted loop
+                        class="video-desktop d-lg-none shadow-lg rounded-4 mb-5"></video>
+                    <br>
+                    <span class="badge bg-dark">JQuery</span>
+                    <span class="badge bg-dark">JS</span>
+                    <span class="badge bg-dark">Bootstrap</span>
+
+                    <span class="badge bg-success"><a class="link-underline-opacity-0 link-light" target="_blank"
+                            href="https://alejandrocardozocode.github.io/drums-web/">Try it
+                            here</a></span>
+                </div>
+                <div class="carousel-item">
+                    <h4>&lt /Discoteca Analógica &gt</h4>
+                    <p>Landing page for a fictional company that sells vinyl records and offers subscriptions.</p>
+                    <video src="assets/web/vinyl/desktop.mp4" autoplay muted loop
+                        class="video-desktop d-none d-lg-inline shadow-lg rounded-4 mb-5"></video>
+                    <video src="assets/web/vinyl/mobile.mp4" autoplay muted loop
+                        class="video-desktop d-lg-none shadow-lg rounded-4 mb-5"></video>
+                    <br>
+                    <span class="badge bg-dark">Bootstrap</span>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="d-flex justify-content-between my-5">
+            <button class="btn" type="button" data-bs-target="#carouselWeb" data-bs-slide="prev"><i
+                    class="fa-solid fa-arrow-left"></i> Previous</button>
+            <button class="btn" type="button" data-bs-target="#carouselWeb" data-bs-slide="next">Next<i
+                    class="fa-solid fa-arrow-right"></i></button>
+        </div>
+
     </section>
     <div class="my-5">
         <p>Desktop</p>
